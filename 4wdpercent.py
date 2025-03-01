@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # %%
-file_path = "/Users/kevin/Documents/projects/project_4/vehicles_us.csv"
+file_path = "vehicles_us.csv"
 
 vehicles = pd.read_csv(file_path)
 
