@@ -74,6 +74,9 @@ merged_df = pd.merge(average_price_per_make, percentage_4wd, on='make', how='inn
 
 print(merged_df)
 
+st.header('Average Sale Price of Car Brands and Percentage of Their Cars That Are 4WD') 
+st.dataframe(merged_df)
+
 plt.figure(figsize=(10, 6))
 plt.scatter(merged_df['Percentage 4WD'], merged_df['Average Price'], alpha=0.7)
 
